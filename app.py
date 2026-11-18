@@ -11,7 +11,10 @@ st.set_page_config(page_title="AI Data Analyst", page_icon="📊", layout="cente
 st.title("Asistente Analista de Datos con IA")
 st.write("Sube un archivo CSV o usa los datos de prueba y haz preguntas en lenguaje natural.")
 
-api_key = st.sidebar.text_input("Groq API Key", value=os.getenv("GROQ_API_KEY", ""), type="password")
+secret_key = os.getenv("GROQ_API_KEY", "")
+user_key = st.sidebar.text_input("Groq API Key (Opcional)", type="password", placeholder="Usa tu propia clave o deja vacío")
+api_key = user_key if user_key else secret_key
+
 
 uploaded_file = st.file_uploader("Sube tu archivo CSV", type=["csv"])
 
