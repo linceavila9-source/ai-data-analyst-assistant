@@ -32,7 +32,7 @@ Asistente conversacional inteligente diseñado para democratizar el análisis de
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/linceavila9-source/ai-data-analyst-assistant.git
    cd ai-data-analyst-assistant
    ```
 
