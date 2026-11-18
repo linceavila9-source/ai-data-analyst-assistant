@@ -2,6 +2,8 @@
 
 Asistente conversacional inteligente diseñado para democratizar el análisis de datos. Permite a usuarios sin conocimientos técnicos consultar archivos CSV y bases de datos SQL utilizando lenguaje natural.
 
+**Pruébalo en vivo aquí:** https://lince-ai-data-analyst.streamlit.app/ 
+
 ## Características
 - **Text-to-SQL en tiempo real:** Convierte preguntas en español a consultas SQL optimizadas mediante inferencia ultrarrápida.
 - **Carga dinámica de datos:** Soporte para archivos `.csv` personalizados o dataset de demostración integrado.
